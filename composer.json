@@ -1,0 +1,29 @@
+{
+	"name": "duffleman/crpc",
+	"description": "CRPC implementation around json-client.",
+	"license": "MIT",
+	"version": "1.0.0",
+	"type": "library",
+	"authors": [
+		{
+			"name": "George Miller",
+			"email": "github@duffleman.co.uk"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Duffleman\\crpc\\": "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	},
+	"require": {
+		"php": ">=7.0",
+		"duffleman/json-client": "^2.0",
+		"jawira/case-converter": "^3.4"
+	},
+	"require-dev": {
+		"symfony/var-dumper": "^3.0"
+	}
+}
